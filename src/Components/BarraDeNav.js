@@ -1,10 +1,10 @@
 import React from 'react'
-import { Navbar } from 'react-bootstrap'
+import { Container, Navbar } from 'react-bootstrap'
 
 const BarraDeNav = () => {
   return (
     <div>
-        <Header>
+        <div>
             
             <Navbar>
   <Container>
@@ -18,7 +18,7 @@ const BarraDeNav = () => {
   </Container>
 </Navbar>
     
-        </Header>
+        </div>
     </div>
   )
 }
