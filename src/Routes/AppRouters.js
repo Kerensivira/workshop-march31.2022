@@ -2,7 +2,7 @@
 import { BrowserRouter, Route, Routes  } from "react-router-dom";
 import BarraDeNav from "../Components/BarraDeNav";
 import Cards from "../Components/Cards";
-import getCards from "../Selectors/getCards";
+import getCardss from "../Selectors/getCardss";
 
 
 
@@ -13,7 +13,7 @@ export default function AppRouters () {
            <Routes>
                <Route path="/" element = {<BarraDeNav/>}/> 
                <Route path="/Cards" element = {<Cards/>}/> 
-               <Route path="/GetCards" element = {<getCards/>}/>
+               <Route path="/getCardss" element = {<getCardss/>}/> 
            </Routes>
            </BrowserRouter>
         )
