@@ -2,7 +2,7 @@
 import { BrowserRouter, Route, Routes  } from "react-router-dom";
 import BarraDeNav from "../Components/BarraDeNav";
 import Cards from "../Components/Cards";
-import Search from "../Components/Search";
+import SearchWords from "../Components/SearchWords";
 
 
 
@@ -13,7 +13,7 @@ export default function AppRouters () {
            <BarraDeNav/>
            <Routes>
                <Route path="/Cards" element = {<Cards/>}/> 
-               <Route path="/Search" element = {<Search/>}/> 
+               <Route path="/SearchWords" element = {<SearchWords/>}/> 
            </Routes>
            </BrowserRouter>
         )
